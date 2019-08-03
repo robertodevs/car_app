@@ -1,0 +1,70 @@
+name: car_app
+description: Car app demo using Flutter.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+  - assets/image.png
+  - assets/car1_black.png
+  - assets/car1_white.png
+  - assets/car2_black.png
+  - assets/car2_white.png
+  - assets/car3_black.png
+  - assets/car3_white.png
+  - assets/car4_black.png
+  - assets/car4_white.png
+  - assets/color1.png
+  - assets/color2.png
+  - assets/color3.png
+  - assets/color4.png
+  - assets/color5.png
+  - assets/color6.png
+  - assets/background_right.png
+  - assets/background_left.png
+  - assets/carlist1.png
+  - assets/carlist2.png
+  - assets/carlist3.png
+  - assets/carlist4.png
+  - assets/phone.png
+
+  fonts:
+  - family: AlegreyaSansSC
+    fonts:
+    - asset: fonts/AlegreyaSansSC-Regular.ttf
